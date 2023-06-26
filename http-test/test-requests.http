@@ -1,0 +1,13 @@
+###
+GET http://localhost:8080/roll/4/d/20
+
+###
+POST http://localhost:8080/roll
+Content-Type: application/json
+
+{
+  "request" : "4d20+6d10-10"
+}
+
+###
+GET http://localhost:8080/roll/notation/4d20%2B10%2B2d10-8-1d4
